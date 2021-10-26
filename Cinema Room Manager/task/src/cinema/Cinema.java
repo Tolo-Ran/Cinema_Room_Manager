@@ -1,6 +1,5 @@
 package cinema;
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -60,6 +59,7 @@ public class Cinema {
         System.out.printf("Percentage: %3.2f", percentSeats);
         System.out.println("%");
     }
+
     public static void showMenu() {
         System.out.println("1. Show the seats");
         System.out.println("2. Buy a ticket");
